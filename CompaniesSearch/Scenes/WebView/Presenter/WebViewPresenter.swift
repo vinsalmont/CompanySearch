@@ -1,5 +1,5 @@
 //
-//  WebPresenter.swift
+//  WebViewPresenter.swift
 //  CompaniesSearch
 //
 //  Created by Vinicius Salmont on 11/01/21.
@@ -12,7 +12,7 @@ protocol WebViewPresentationLogic {
 }
 
 class WebViewPresenter: WebViewPresentationLogic {
-    weak var viewController: WebDisplayLogic?
+    weak var viewController: WebViewDisplayLogic?
 
     func presentURL(response: WebViewModels.GetURL.Response) {
         let viewModel = WebViewModels.GetURL.ViewModel(displayedURL: response.url, name: response.name)

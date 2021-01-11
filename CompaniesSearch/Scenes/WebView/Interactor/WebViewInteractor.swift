@@ -23,7 +23,7 @@ class WebViewInteractor: WebViewDataStore {
     var name: String?
 }
 
-// MARK: RepositoriesBusinessLogic
+// MARK: WebViewBusinessLogic
 extension WebViewInteractor: WebViewBusinessLogic {
     func getURL() {
         guard let url = url,

@@ -7,16 +7,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "98557DEF-E5D3-4854-B4CB-3FC937D685C9"
+            uuid = "3BCE3194-FD16-4094-A3A2-88C3ABDEAE17"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CompaniesSearch/Scenes/WebView/Views/WebViewController.swift"
+            filePath = "CompaniesSearch/Scenes/WebView/Interactor/WebViewInteractor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
-            landmarkName = "setPlaceholder(status:)"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getURL()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7ABF9FF-B086-461C-8894-08D4F5125322"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompaniesSearch/Scenes/WebView/Interactor/WebViewInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getURL()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

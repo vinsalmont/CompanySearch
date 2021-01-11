@@ -1,5 +1,5 @@
 //
-//  WebRouter.swift
+//  WebViewRouter.swift
 //  CompaniesSearch
 //
 //  Created by Vinicius Salmont on 11/01/21.

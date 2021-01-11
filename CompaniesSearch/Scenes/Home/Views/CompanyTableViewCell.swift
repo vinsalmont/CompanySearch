@@ -17,7 +17,7 @@ class CompanyTableViewCell: UITableViewCell {
     func setup(viewModel: HomeModels.FetchCompanies.ViewModel.DisplayedCompany) {
         self.companyImageView.download(url: viewModel.logoURL)
         self.companyNameLabel.text = viewModel.name
-        self.companyDescriptionLabel.text = viewModel.category
+        self.companyDescriptionLabel.text = viewModel.type
     }
 
     override func prepareForReuse() {
