@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
+  - lottie-ios (3.1.8)
+  - OHHTTPStubs/Core (9.1.0)
+  - OHHTTPStubs/Default (9.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.1.0)
+  - OHHTTPStubs/Swift (9.1.0):
+    - OHHTTPStubs/Default
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9.1)
+  - Kingfisher
+  - lottie-ios
+  - OHHTTPStubs/Swift
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - lottie-ios
+    - OHHTTPStubs
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  OHHTTPStubs: 90eac6d8f2c18317baeca36698523dc67c513831
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: c5717c1dc0c3cb2dcb8df7acd892bf2c0ed0d942
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="CompanyTableViewCell" rowHeight="92" id="nfE-de-tbv" customClass="CompanyTableViewCell" customModule="CompaniesSearch" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="nfE-de-tbv" id="UL6-Md-6qa">
+                <rect key="frame" x="0.0" y="0.0" width="293" height="92"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="loy-mf-cVj">
+                        <rect key="frame" x="20" y="21" width="50" height="47.5"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="AVl-lY-HEe"/>
+                            <constraint firstAttribute="width" constant="50" id="GuW-ta-Qwk"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOI-0W-MDe">
+                        <rect key="frame" x="87" y="20" width="186" height="19.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6v-24-Zf6">
+                        <rect key="frame" x="87" y="47.5" width="186" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="LOI-0W-MDe" firstAttribute="leading" secondItem="loy-mf-cVj" secondAttribute="trailing" constant="17" id="3t5-P4-Do8"/>
+                    <constraint firstItem="j6v-24-Zf6" firstAttribute="top" secondItem="LOI-0W-MDe" secondAttribute="bottom" constant="8" symbolic="YES" id="Eoc-pE-Ksl"/>
+                    <constraint firstAttribute="bottom" secondItem="loy-mf-cVj" secondAttribute="bottom" constant="20" id="Kmc-j4-b4A"/>
+                    <constraint firstAttribute="trailing" secondItem="LOI-0W-MDe" secondAttribute="trailing" constant="20" id="MuP-MJ-WJU"/>
+                    <constraint firstItem="j6v-24-Zf6" firstAttribute="trailing" secondItem="LOI-0W-MDe" secondAttribute="trailing" id="SKF-eU-tnd"/>
+                    <constraint firstItem="LOI-0W-MDe" firstAttribute="top" secondItem="loy-mf-cVj" secondAttribute="top" id="e50-LF-Ubn"/>
+                    <constraint firstItem="loy-mf-cVj" firstAttribute="leading" secondItem="UL6-Md-6qa" secondAttribute="leading" constant="20" id="sHz-xW-hog"/>
+                    <constraint firstItem="loy-mf-cVj" firstAttribute="top" secondItem="UL6-Md-6qa" secondAttribute="top" constant="20" id="sRm-wh-DKa"/>
+                    <constraint firstItem="j6v-24-Zf6" firstAttribute="leading" secondItem="LOI-0W-MDe" secondAttribute="leading" id="zlG-dN-Epe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="S2u-GU-sj9"/>
+            <connections>
+                <outlet property="companyDescriptionLabel" destination="j6v-24-Zf6" id="dae-um-TFm"/>
+                <outlet property="companyImageView" destination="loy-mf-cVj" id="fSz-Eo-Rnf"/>
+                <outlet property="companyNameLabel" destination="LOI-0W-MDe" id="n67-ae-zfR"/>
+            </connections>
+            <point key="canvasLocation" x="-30.434782608695656" y="143.30357142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="photo.fill" catalog="system" width="128" height="93"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
